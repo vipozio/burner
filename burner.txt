@@ -1,52 +1,93 @@
-. Administrator
-Manages user accounts, roles, and license assignments
+1. Administrator (Tenant Admin)
+Provides oversight for access management, compliance, and platform maintenance.
 
-Coordinates with governance and IT for platform updates and security configurations
+Manages user roles and folder permissions across projects.
 
-Manages global settings, instance configurations, and plugin installations
+Creates, edits, and deletes:
 
-Oversees folder-level and project-level access controls
+Users and logins
 
-Monitors platform performance and addresses incidents
+Macros
 
-2. Developer
-Creates, maintains, and deploys Dataiku workflows and ML models
+Environment codes
 
-Integrates datasets, custom code (Python, R), and plugins into projects
+Folder rights
 
-Collaborates with Editors and Project Creators on data pipeline evolution
+Opens and manages flows for connections.
 
-Performs version control and unit testing on flows and scenarios
+Manages and monitors local project bugs.
 
-Requests access or enhancements via Administrator
+Ensures license application and renewal process by coordinating with central teams.
 
-3. Editor
-Edits datasets, joins, visual recipes, and scenarios within an assigned project
+Acts as the primary Accountable party for project and user-level configurations.
 
-Can update charts, dashboards, and storyboards
+2. Group Offer Team
+Leads platform-level responsibilities, governance enforcement, and shared resource management.
 
-Supports testing and validation of flows before deployment
+Responsible for:
 
-Assists Project Creator/Developer in non-coding operations
+Adding licenses to instances.
 
-Cannot create or delete entire projects
+Creation of monitoring projects.
 
-4. Reader / Viewer
-Views dashboards, datasets, models, and project outcomes
+Ensuring centralized monitoring and incident resolution.
 
-Accesses published insights via dashboards or automated exports
+Managing platform-wide bugs/incidents.
 
-Cannot edit flows, datasets, or configurations
+Consulted for user-level activities and informed of major changes.
 
-Subscribes to email updates and automation logs
+Collaborates with the Tenant Admin on shared configurations and compliance.
 
-5. Project Creator
-Creates new projects and assigns roles (Developer, Editor, Viewer)
+Acts as Responsible & Accountable for environment-wide actions.
 
-Initiates data connections and first-level flows
+3. Developers (Project Owners)
+Create new projects and develop flows within those projects.
 
-Owns project documentation and handover to governance or business referents
+Import and transform data for analysis.
 
-Can archive or delete completed projects (if permissions allow)
+Add and manage plugins required by projects.
 
-Collaborates with Admin and IT on security/data access
+Monitor performance and collaborate with tenant admins for infrastructure optimization.
+
+Consult with Group Team and Admins for escalations.
+
+4. End Users (Business Users / Analysts)
+Interact with Dataiku projects as collaborators or viewers.
+
+Can be consulted during login creation or data access planning.
+
+Use developed flows, analyze datasets, and provide feedback.
+
+May raise performance issues or bugs through official channels.
+
+Informed of changes to flows, access permissions, or platform incidents.
+
+5. Auditors (Compliance Teams)
+Verify user license usage and access logs.
+
+Monitor activity to ensure security and policy compliance.
+
+Validate whether tenant-wide monitoring is in place and working.
+
+Review folder rights and audit plugin changes.
+
+Ensure documentation and sign-offs are maintained for license and configuration changes.
+
+6. Testers (Data Validation / QA Analysts)
+Review business and data requirements to understand expected data workflows.
+
+Perform hands-on testing of Dataiku flows and plugins for correctness, layout, and usability.
+
+Validate flow performance, logic, and data outputs across scenarios.
+
+Conduct regression testing after changes to ensure no disruption to existing functionalities.
+
+Test row-level access rules, data filtering logic, and parameter handling in scenarios.
+
+Document test results and raise defects related to flow breaks, performance issues, or data inconsistency.
+
+Participate in UAT or QA checkpoints to validate project readiness and functionality.
+
+Collaborate with developers, data engineers, and tenant admins to prioritize and resolve bugs.
+
+Ensure test cases are aligned with audit, compliance, and business objectives.
