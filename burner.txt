@@ -1,0 +1,52 @@
+. Administrator
+Manages user accounts, roles, and license assignments
+
+Coordinates with governance and IT for platform updates and security configurations
+
+Manages global settings, instance configurations, and plugin installations
+
+Oversees folder-level and project-level access controls
+
+Monitors platform performance and addresses incidents
+
+2. Developer
+Creates, maintains, and deploys Dataiku workflows and ML models
+
+Integrates datasets, custom code (Python, R), and plugins into projects
+
+Collaborates with Editors and Project Creators on data pipeline evolution
+
+Performs version control and unit testing on flows and scenarios
+
+Requests access or enhancements via Administrator
+
+3. Editor
+Edits datasets, joins, visual recipes, and scenarios within an assigned project
+
+Can update charts, dashboards, and storyboards
+
+Supports testing and validation of flows before deployment
+
+Assists Project Creator/Developer in non-coding operations
+
+Cannot create or delete entire projects
+
+4. Reader / Viewer
+Views dashboards, datasets, models, and project outcomes
+
+Accesses published insights via dashboards or automated exports
+
+Cannot edit flows, datasets, or configurations
+
+Subscribes to email updates and automation logs
+
+5. Project Creator
+Creates new projects and assigns roles (Developer, Editor, Viewer)
+
+Initiates data connections and first-level flows
+
+Owns project documentation and handover to governance or business referents
+
+Can archive or delete completed projects (if permissions allow)
+
+Collaborates with Admin and IT on security/data access
